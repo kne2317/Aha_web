@@ -141,11 +141,22 @@ content div h1{
     from{left: -3px}
     to{ left:3px }
 }
-#sth{
-    background-color: white;
-    width: 90%;
+.idea_way{
+    width: 100%;
     margin: 0 auto;
-    padding: 100px;
+    padding: 150px 200px 150px 200px;
+}
+#sth{
+    background-color:#FFD228;
+}
+#ms{
+    background-color: #14148C;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+#ms p,#wh p, #mtp p, #exg p, #scp p{
+    margin-top: 20px;
 }
 .title{
     text-align: left;
@@ -159,4 +170,28 @@ content div h1{
 .left_lay{
     float: left;
     flex:1;
+}
+#wh{
+    background-color: #FF8C0A;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+}
+#scp{
+    background-color: #8a0a8a;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+#mtp{
+    background-color: #DC6089;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+#exg{
+    background-color: #69A8AA;
+    color: white;
+    font-size: 20px;
+    text-align: left;
 }
