@@ -148,6 +148,7 @@ content div h1{
 }
 #sth{
     background-color:#FFD228;
+    font-size: 20px;
 }
 #ms{
     background-color: #14148C;
@@ -194,4 +195,13 @@ content div h1{
     color: white;
     font-size: 20px;
     text-align: left;
+}
+
+#aha_explain ul body:hover .aha_and{
+    position: relative;
+	animation: gogogo .9s;
+}
+@keyframes gogogo{
+    from{left: -3px}
+    to{ left:3px }
 }
