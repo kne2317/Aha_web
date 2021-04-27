@@ -7,12 +7,13 @@ body{
     animation-duration: 30s;
     animation-iteration-count: infinite;
     z-index: -10;
+    margin-top: -150px;
     position: absolute;
 }
 
 @keyframes backimg {
     0% {
-      transform: translateX(-150%);
+      transform: translateX(-150%) ;
     }
     100% {
       transform: translateX(60%);
@@ -25,6 +26,14 @@ body{
 }
 #logo{
     font-size: 20px;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 100;
 }
 nav ul{
     
@@ -44,9 +53,11 @@ nav a:visited{color: black;}
 nav a:hover{color: gray;}
 
 content{
-    margin-top:80px;
+    margin: 0 auto;
+    margin-top:300px;
     display: flex;
-    width: 100%;
+    width: 80%;
+    
 }
 content div{
     flex: 1;
@@ -54,7 +65,7 @@ content div{
 }
 content div p{
     font-size: 40px;
-    margin-top: 50px;
+    margin-top: -150px;
 }
 content div h1{
     font-size: 80px;
@@ -63,8 +74,8 @@ content div h1{
 #mountain{
     margin: 0 auto;
     width: 100%;
-    height: 600px;
-    background-color: #2E8B57;
+    height: 750px;
+    background-color: #389561;
 }
 #aha2{
     transform: rotate(15deg);
@@ -78,7 +89,7 @@ content div h1{
 .ahatxt span {
     display: inline-block;
     margin: 0 -.05em;
-    animation: ahatxt 4s infinite alternate;
+    animation: ahatxt 7s infinite alternate;
   }
   .ahatxt span:nth-child(2) {
     animation-delay: .1s;
@@ -98,3 +109,48 @@ content div h1{
         opacity: 0;
       }
   }
+  #aha_explain{
+    float: left;
+    color: white;
+    margin-top: 150px;
+    text-align: left;
+    margin-left: 300px;
+  }
+  #aha_explain p:nth-child(1){
+      font-size: 40px;
+      
+  }
+  #aha_explain p:nth-child(3){
+    font-size: 20px;
+}
+#aha_explain ul a{
+    color: white;
+}
+#aha_explain ul li{
+    margin-bottom:20px;
+}
+#aha_explain ul{
+    margin-top: 30px;
+    font-size: 20px;
+}
+#aha_explain ul a:hover .go{
+    position: relative;
+	animation: gogogo .9s infinite;
+}
+@keyframes gogogo{
+    from{left: -3px}
+    to{ left:3px }
+}
+#sth{
+    background-color: white;
+    width: 90%;
+    margin: 0 auto;
+    padding: 100px;
+}
+.title{
+    text-align: left;
+    font-size: 50px;
+}
+.left_lay{
+    float: left;
+}
