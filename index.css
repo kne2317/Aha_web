@@ -151,6 +151,12 @@ content div h1{
     text-align: left;
     font-size: 50px;
 }
+
+#topsth, #botsth{
+    display: flex;
+    margin-top: 50px;
+}
 .left_lay{
     float: left;
+    flex:1;
 }
