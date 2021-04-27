@@ -1,0 +1,53 @@
+body{
+    overflow-x: hidden;
+}
+#background{
+    background-repeat: no-repeat;
+    animation-name: backimg;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    z-index: -10;
+    position: absolute;
+}
+
+@keyframes backimg {
+    0% {
+      transform: translateX(-150%);
+    }
+    100% {
+      transform: translateX(60%);
+    }
+  }
+#logo img{
+    border-radius: 20px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+#logo{
+    font-size: 20px;
+}
+nav ul{
+    
+    width: 100%;
+    height: 100px;
+    display: flex;  
+}
+
+nav li{
+    float: left;
+    flex: 1;
+    text-align: center;
+    line-height: 100px;
+}
+nav a:link{color: black;}
+nav a:visited{color: black;}
+nav a:hover{color: gray;}
+
+content{
+    margin-top:60px;
+    display: flex;
+    width: 100%;
+}
+content div{
+    flex: 1;
+}
